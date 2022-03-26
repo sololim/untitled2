@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="V]i7BZq[-=BFxdoLm3d%" x="338" y="-354"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="dUNA,y!Wb9xFb:^E1dwb"><value name="text"><shadow type="text" id="VSpgUUnfVtNxG;Tmp@5{"><field name="TEXT">Hello!</field></shadow></value><next><block type="device_show_leds" id="tx^.BZ7I?79YxhZ^KHTl"><field name="LEDS">`
+        # . . . . 
+        # # . . . 
+        # # # . . 
+        # # # # . 
+        # # # # #
+        `</field><next><block type="device_start_melody" id="ey}5r#2xF5Ew)b~5C(b`"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="d0c0#Z[d#~p?|-}v$|#N"><field name="melody">Melodies.Blues</field></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="Xh@?77-(:nE#tT7jg:6;" x="0" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id="gfe?uCj5Cuml4%B$Owl-"><value name="text"><shadow type="text" id="~a3UT@VxYc$Ry~+)}AJk"><field name="TEXT">Hello in stage 2</field></shadow></value><next><block type="basic_show_icon" id="3WUF/rD+uJ@+_In@TFnF"><field name="i">IconNames.Heart</field><next><block type="device_start_melody" id="/)!kGnFF@$@=xh3O+N+4"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="7@Jl2)+((bU|x`AR)3J}"><field name="melody">Melodies.Dadadadum</field></block></value><next><block type="basic_show_icon" id="%ip0%Sa1!nCqDOKpIxl)"><field name="i">IconNames.SmallHeart</field><next><block type="device_show_leds" id="tW7h=Qq(I(I~a(d9Kyua"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
